@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Halloween Website</title>
 
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
 
@@ -90,7 +91,7 @@
 <!--           product section starts     -->
 <section class="products" id="products">
     <h1 class="heading">Our <span>Products</span></h1>
-    <div class="swiper product-slider">
+    <div class="swiper product-slider" data-aos="zoom-in">
         <div class="swiper-wrapper">
             <div class="swiper-slide box">
                 <div class="icons">
@@ -170,7 +171,7 @@
 <!--           about section starts       -->
 
 <section class="about" id="about">
-    <div class="content">
+    <div class="content" data-aos="fade-right">
         <h3>About Us</h3>
         <p>At Halloween Maniac we stock more costumes in <b> sizes and more styles</b> than anyone for Halloween but as one of the largest costume retailers in the country, we also offer costumes, accessories and party supplies for virtually every holiday or event you can imagine and <b>we do it year round.</b>
 
@@ -295,12 +296,12 @@
         <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3680.8673554078246!2d88.38196541326761!3d22.695981284153966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f89c0d7063459f%3A0x5363163b19b597f3!2sLIC%20Park%2C%20Kolkata%2C%20West%20Bengal%20700110!5e0!3m2!1sen!2sin!4v1634552446159!5m2!1sen!2sin" allowfullscreen="" loading="lazy"></iframe>
 
         <form action="">
-            <h3 >Tell us something!</h3>
-            <input type="text" placeholder="Name:" class="box">
-            <input type="email" placeholder="Email-Address:" class="box">
-            <input type="number" placeholder="Phone No.:" class="box">
-            <textarea placeholder="Any Message:" class="box" cols="30" rows="10"></textarea>
-            <input type="submit" value="send message" class="btn">
+            <h3 data-aos="zoom-in">Tell us something!</h3>
+            <input type="text" placeholder="Name:" class="box" data-aos="zoom-in">
+            <input type="email" placeholder="Email-Address:" class="box" data-aos="zoom-in">
+            <input type="number" placeholder="Phone No.:" class="box" data-aos="zoom-in">
+            <textarea placeholder="Any Message:" class="box" cols="30" rows="10" data-aos="zoom-in"></textarea>
+            <input type="submit" value="send message" class="btn" data-aos="zoom-in">
         </form>
 
     </div>
@@ -314,7 +315,7 @@
 <section class="blogs" id="blogs">
     <h1 class="heading">Our <span>Blogs</span> </h1>
     <div class="box-container">
-        <div class="box">
+        <div class="box" data-aos="fade-right">
             <div class="image">
                 <img src="./image/blog-1.jpg" alt="">
             </div>
@@ -328,7 +329,7 @@
                 </div>
             </div>
         </div>
-        <div class="box">
+        <div class="box" data-aos="fade-down">
             <div class="image">
                 <img src="./image/blog-2.jpg" alt="">
             </div>
@@ -342,7 +343,7 @@
                 </div>
             </div>
         </div>
-        <div class="box">
+        <div class="box" data-aos="fade-left">
             <div class="image">
                 <img src="./image/blog-3.jpg" alt="">
             </div>
@@ -365,7 +366,7 @@
 
 <section class="footer" id="footer">
     <div class="box-container">
-        <div class="box">
+        <div class="box" data-aos="fade-right">
             <h3>Our Branches</h3>
             <a href="#"><i class="fas fa-map-marker-alt"></i>India</a>
             <a href="#"><i class="fas fa-map-marker-alt"></i>USA</a>
@@ -373,7 +374,7 @@
             <a href="#"><i class="fas fa-map-marker-alt"></i>Japan</a>
             <a href="#"><i class="fas fa-map-marker-alt"></i>Germany</a>
         </div>
-        <div class="box">
+        <div class="box" data-aos="fade-down">
             <h3>Quick Links</h3>
             <a href="#"><i class="fas fa-arrow-right"></i>Home</a>
             <a href="#"><i class="fas fa-arrow-right"></i>Products</a>
@@ -381,14 +382,14 @@
             <a href="#"><i class="fas fa-arrow-right"></i>Contact</a>
             <a href="#"><i class="fas fa-arrow-right"></i>Blogs</a>
         </div>
-        <div class="box">
+        <div class="box" data-aos="fade-up">
             <h3>Contact Us</h3>
             <a href="#"><i class="fas fa-phone"></i>(+91)9876543210</a>
             <a href="#"><i class="fas fa-phone"></i>(+91)1234567890</a>
             <a href="#"><i class="fas fa-envelope"></i>koustav2001@gmail.com</a>
             <a href="#"><i class="fas fa-map-marker-alt"></i>Kolkata,India 700110</a>
         </div>
-        <div class="box">
+        <div class="box" data-aos="fade-left">
             <h3>Contact Us</h3>
             <a href="#"><i class="fab fa-facebook"></i>Facebook</a>
             <a href="#"><i class="fab fa-twitter"></i>Twitter</a>
@@ -448,6 +449,10 @@
           },
         },
         });
+        </script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init();
         </script>
     <script src="app.js"></script>
     <script src="https://unpkg.com/swiper@7/swiper-bundle.esm.browser.min.js"></script>
