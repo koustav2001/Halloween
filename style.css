@@ -117,7 +117,7 @@ section{
 
 .header .icons a,
 .header .icons div{
-    font-size: 2.5rem;
+    font-size: 2.0rem;
     color:#fff;
     margin-left: 2rem;
     cursor: pointer;
@@ -321,10 +321,10 @@ section{
 } 
 .about
 {
-    background: url(../image/about-bt.jpg) no-repeat;
+    background: url(./image/about-bt.jpg) no-repeat;
     background-position: center;
     background-size: cover;
-    padding-top: 30rem;
+    padding-top: 20rem;
 }
 .about .content
 {
@@ -346,7 +346,7 @@ section{
 
 .arrivals .box-container{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(41rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
     gap:1.5rem;
 }
 .arrivals .box-container .box{
@@ -356,7 +356,7 @@ section{
 }
 .arrivals .box-container .box .image
 {
-    height: 50rem;
+    height: 40rem;
     width: 100%;
     overflow: hidden;
 }
@@ -465,12 +465,12 @@ section{
 
 .blogs .box-container{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(41rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     gap:1.5rem;
 }
 .blogs .box-container .box .image
 {
-    height: 25rem;
+    height: 20rem;
     width: 100%;
     overflow: hidden;
 }
@@ -533,7 +533,7 @@ section{
 .footer .box-container
 {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
     gap:1.5rem;
 }
 
@@ -548,7 +548,7 @@ section{
 {
     font-size: 2.0rem;
     color: #aaa;
-    padding: 1rem 0;
+    padding: 1.5rem 0;
     display: block;
 }
 .footer .box-container .box a:hover{
